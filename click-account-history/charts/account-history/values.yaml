@@ -89,7 +89,7 @@ readinessProbe:
 
 env:
   - name: "SPRING_DATASOURCE_URL"
-    value: "jdbc:mysql://click-account-history-mysql:3306/account-history?serverTimezone=Asia/Seoul"
+    value: "jdbc:mysql://click-account-history-mysql:3306/account_history?serverTimezone=Asia/Seoul"
   - name: "SPRING_DATASOURCE_USERNAME"
     value: "root"
   - name: "SPRING_DATASOURCE_PASSWORD"
