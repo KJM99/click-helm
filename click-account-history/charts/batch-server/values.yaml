@@ -107,7 +107,7 @@ env:
   - name: "SPRING_BATCH_JOB_ENABLED"
     value: "true"
   - name: "SPRING_BATCH_JDBC_INITIALIZE-SCHEMA"
-    value: "embedded"
+    value: "always"
 
 autoscaling:
   enabled: false
