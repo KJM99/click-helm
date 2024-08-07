@@ -104,10 +104,6 @@ env:
     value: "mongodb://click-account-history-mongodb:27017/AccountHistory"
   - name: "SPRING_DATA_MONGODB_PASSWORD"
     value: "1234"
-  - name: "SPRING_BATCH_JOB_ENABLED"
-    value: "true"
-  - name: "SPRING_BATCH_JDBC_INITIALIZE-SCHEMA"
-    value: "always"
 
 autoscaling:
   enabled: false
