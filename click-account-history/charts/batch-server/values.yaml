@@ -99,7 +99,7 @@ env:
   - name: "SPRING_DATASOURCE_PASSWORD"
     value: "1234"
   - name: "SPRING_JPA_HIBERNATE_DDL_AUTO"
-    value: "update"
+    value: "none"
   - name: "SPRING_DATA_MONGODB_URI"
     value: "mongodb://click-account-history-mongodb:27017/AccountHistory"
   - name: "SPRING_BATCH_JDBC_INITIALIZE-SCHEMA"
