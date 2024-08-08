@@ -90,7 +90,7 @@ env:
   - name: "MONGO_INITDB_ROOT_PASSWORD"
     value: "1234"
   - name: "MONGO_INITDB_DATABASE"
-    value: "accountHistory"
+    value: "account_history"
 autoscaling:
   enabled: false
   minReplicas: 1
