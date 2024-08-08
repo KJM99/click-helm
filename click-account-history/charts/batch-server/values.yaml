@@ -101,7 +101,7 @@ env:
   - name: "SPRING_JPA_HIBERNATE_DDL_AUTO"
     value: "none"
   - name: "SPRING_DATA_MONGODB_URI"
-    value: "mongodb://click-account-history-mongodb:27017/account_history?directConnection=true&authSource=admin"
+    value: "mongodb://root:1234click-account-history-mongodb:27017/account_history?authSource=admin"
   - name: "SPRING_BATCH_JDBC_INITIALIZE-SCHEMA"
     value: "embedded"
   - name: "SPRING_DATA_MONGODB_USERNAME"
